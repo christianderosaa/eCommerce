@@ -12,7 +12,7 @@ public class SwaggerConfig{
     public Docket getDocket() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("it.esercizio.testcalcio"))
+                .apis(RequestHandlerSelectors.basePackage("it.reactive.eCommerce"))
                 .build();    }
 
     @Bean

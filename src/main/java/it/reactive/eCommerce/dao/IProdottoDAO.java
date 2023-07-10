@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface IProdottoDAO extends JpaRepository<Prodotto,Long> {
-    ProdottoDTO ottieniProdottoDettaglio(ProdottoDTO prodottoDTO);
+public interface IProdottoDAO{
+    ProdottoDTO ottieniProdottoDettaglio(Long idProdotto);
     List<ProdottoDTO> ottieniListaProdotti();
     void inserisciProdotto(ProdottoDTO prodottoDTO);
     ProdottoDTO modificaProdotto(ProdottoDTO prodottoDTO);
