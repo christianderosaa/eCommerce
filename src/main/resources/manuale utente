@@ -1,0 +1,62 @@
+Manuale utente eCommerce:
+
+il presente documento serve al cliente per avere una panoramica del programma e per capirne il funzionamento.
+
+------------------------------------------------------------------------------------------------------------------------------------
+Descrizione:
+
+Il progetto è un E-Commerce d'abbigliamento dove c'è una distinzione tra utente di tipo Amministratore e utente di tipo Cliente.
+In principio, tramite un'apposita sezione di login, sarà possibile effettuare in login in versione Amministratore o Cliente,
+i login permettono di avere diversi permessi e soprattutto funzioni diverse associate all'utente target.
+Di seguito una panoramica delle funzioni dell'applicazione distinte per tipo utente.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+L'utente di tipo Amministratore possiede tutti i permessi necessari al management dei prodotti e, in generale, della gestione
+di tutto ciò che concerne gli ordini e le statistiche di vendita del sito:
+
+- Inserimento/modifica/cancellazione prodotti dal sito:
+    Tramite l'apposita sezione l'amministratore potrà gestire i prodotti che dovranno essere visionati sul sito.
+
+- Inserimento/modifica/cancellazione categorie:
+    Nella stessa sezione dove l'amministratore gestisce i prodotti, sarà presente anche la funzione di gestire le categorie,
+    potendo quindi decidere le categorie, gestirle e, se desiderato, aggiungere prodotti ad una determinata categoria.
+
+- Visualizzazione e Evasione ordini:
+    L'utente amministratore avrà il completo monitoraggio degli ordini effettuati dai clienti, potendo oltretutto modificare lo
+    stato di un ordine con "In lavorazione" o "evaso" a seconda dello stato di elaborazione.
+
+- Recensioni:
+    L'amministratore potrà controllare le recensioni inserite dai clienti e potrà quindi decidere di pubblicarle o meno.
+
+- Statistiche di vendita:
+    L'amministratore può controllare l'andamento del suo sito tramite un'apposita sezione dedicata.
+    Potrà quindi controllare i vari numeri d'ordine dei clienti, i prodotti più venduti sul sito e altre informazioni di utilità
+    finanziaria e di marketing.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Per quanto Riguarda l'utente di tipo Cliente invece, ci saranno diverse feature che si distaccano dall'ambito manageriale
+e che si occupano principalmente di fornire una migliore esperienza di navigazione, le funzioni quindi saranno:
+
+- Ricerca prodotto:
+    Il cliente potrà ricercare un prodotto di suo interesse, anche in base a dei filtri per facilitarne la ricerca.
+
+- Visualizzare la lista intera di prodotti presenti sul sito:
+    Il cliente accederà alla sezione "prodotti" dove avrà una lista completa di tutti i prodotti, e potrà poi decidere
+    se trovare in autonomia il prodotto desiderato oppure trovarlo tramite apposita ricerca sopracitata.
+
+- Carrello:
+    Il cliente avrà la possibilità di accedere alla sezione "Carrello" dove troverà i prodotti di suo interesse che sono stati
+    inseriti precedentemente, potrà quindi decidere se:
+       a. rimuovere i prodotti dal carrello
+       b. aggiungere o rimuovere le quantità inerenti allo stesso prodotto presnte nel carrello
+       c. inserire dati di spedizione e di pagamento ed eventualmente modificarli a suo piacimento
+
+- Recensioni:
+    Il cliente potrà decidere se lasciare o meno una recensione sul prodotto da lui acquistato, che poi dovrà essere approvata
+    dall'amministratore.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,16 @@
+Tecnologie eCommerce:
+
+Nel progetto di eCommerce, dove viene creato un negozio online di abbigliamento, è stato accordato tra i vari leader di usare
+come linguaggio di programmazione Java, in quanto offre un programmazione robusta e che evita il più possibile problemi di manutenzione.
+Si è deciso inoltre di proseguire usando SpringBoot come framework, data la sua praticità e velocità in ambito REST Api.
+Il database utilizzato sarà un database H2 in quanto segue il linguaggio SQL e possiede quindi delle cardinalità che sono fondamentali
+per la creazione del progetto.
+Durante il progetto, per visionare e controllare il corretto funzionamento delle chiamate, viene utilizzato SwaggerUI.
+
+Di seguito un'elenco formale per permettere una migliore comprensione:
+
+Linguaggio di programmazione: Java 1.8
+Framework: Spring, in particolare la sua estensione SpringBoot, versione 2.7.13
+Database: H2
+Controllo delle Api: SwaggerUI
+Versionamento del codice: GitHub
