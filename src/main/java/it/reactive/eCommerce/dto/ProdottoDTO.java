@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 public class ProdottoDTO {
     private String nome;
     private String descrizione;
-    private String categoria;
+    private CategoriaDTO categoria;
     private Float prezzo;
 }

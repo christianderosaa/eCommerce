@@ -16,19 +16,14 @@ public class Utenti {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
     private String nome;
 
-    @Column(nullable = false)
     private String cognome;
 
-    @Column(nullable = false)
     private String tipo;
 
-    @Column(nullable = false)
     private String email;
 
-    @Column(nullable = false)
     private String password;
 
     public boolean isCliente() {
